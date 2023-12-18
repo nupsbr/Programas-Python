@@ -4,7 +4,7 @@ with open('dados.csv', 'r', newline='\n') as arq:
     texto = csv.reader(arq)
     lista = list(texto)
 
-
+ 
 for el in lista[1:]:
     dici = {
         'Nome': el[0],
