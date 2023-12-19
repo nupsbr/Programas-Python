@@ -1,0 +1,15 @@
+# leia um numero inteiro e mostre a sua tabuada
+m = int(input('Digite qual quer numero inteiro: '))
+print('='*20)
+
+print('{} * 1  = {}'.format(m, m*1))
+print('{} * 2  = {}'.format(m, m*2))
+print('{} * 3  = {}'.format(m, m*3))
+print('{} * 4  = {}'.format(m, m*4))
+print('{} * 5  = {}'.format(m, m*5))
+print('{} * 6  = {}'.format(m, m*6))
+print('{} * 7  = {}'.format(m, m*7))
+print('{} * 8  = {}'.format(m, m*8))
+print('{} * 9  = {}'.format(m, m*9))
+print('{} * 10 = {}'.format(m, m*10))
+print('='*20)
